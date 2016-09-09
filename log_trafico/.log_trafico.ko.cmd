@@ -1,0 +1,1 @@
+cmd_/home/pi/modulos/log_trafico/log_trafico.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/modulos/log_trafico/log_trafico.ko /home/pi/modulos/log_trafico/log_trafico.o /home/pi/modulos/log_trafico/log_trafico.mod.o
